@@ -7,17 +7,17 @@ An analysis of Kickerstarter launch dates, funding goals and the rate of success
 The client Louise fundraising campaign nearly completed the goal in a short peroid of time.  She now wants to analysis how different campaigns fared in relation to their launch date and funding goals.  
 
 ### Analysis and Challenges
-To begin the anaylsis, I began by extracting the year from the column "Date Created Conversion".  I then created a pivot table (Outcomes Based on Launch Date) using the following settings:
+To begin the anaylsis, I began by extracting the year from the column "Date Created Conversion" using the excel formula YEAR().  I then created a pivot table (Outcomes Based on Launch Date) using the following settings:
 
 - Sort: Parent Category
 - Value: Count of Outcomes
 - X axis - Outcome
 - Y axis - Date Created Conversion
 
-I the sorted the selected data by Parent Category: theater.  I created a line graph using this pivot table.
+I sorted the selected data by Parent Category: theater and created a line graph using this pivot table.
 ![Theater_Outcomes_vs_Launch](https://github.com/abiwat/kickstarter-analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png)
 
-I then created a sheet titled Outcomes Based on Goals.  Titled columns to hold data: 
+To analysis the outcome of the fundraising campaigns based on the goals of those campaigns, I created a sheet titled Outcomes Based on Goals with columns titled: 
 
 - Goal
 - Number Successful
@@ -43,8 +43,10 @@ In the Goal column, labeled rows as follows:
 - 45000 to 49999
 - Greater than 50000.  
 
-Created equation for each value range using COUNTIFS() for successful, failed, canceled for the play subcategory.  In the Total Project column I used SUM(), adding the number of successful, failed, and canceled for each category.   I then calculated the percentage of successful, failed and canceled projects using the formula =(number of successful projects/total number of projects).  I then categorized the column as percentage in excel.  I created a line chart in another sheet using the percentage of successful, failed and canceled projects. 
+Writing an equation for each value range using COUNTIFS() for successful, failed, canceled for the play subcategory.  In the Total Project column I used SUM(), adding the number of successful, failed, and canceled for each category.   I then calculated the percentage of successful, failed and canceled projects using the formula =(number of successful projects/total number of projects).  I then categorized the column as percentage in excel.  I created a line chart in another sheet using the percentage of successful, failed and canceled projects. 
 ![Outcomes_vs_Goals](https://github.com/abiwat/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png)
+
+- [Link to excel file](https://github.com/abiwat/kickstarter-analysis/blob/main/Resources/Kickstarter_Challenge.xlsx)
 
 ### Analysis of Outcomes Based on Launch Date
 Based on the data, April, May and June appear to be the optimal months to launch a theater kickstarter.  The months of September, October and November appear to be the least successful months to launch a project.
