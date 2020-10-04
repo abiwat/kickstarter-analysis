@@ -6,7 +6,7 @@ An analysis of Kickerstarter launch dates, funding goals and the rate of success
 ### Purpose
 The client Louise fundraising campaign nearly completed the goal in a short peroid of time.  She now wants to analysis how different campaigns fared in relation to their launch date and funding goals.  
 
-## Analysis and Challenges
+### Analysis and Challenges
 To begin the anaylsis, I began by extracting the year from the column "Date Created Conversion".  I then created a pivot table (Outcomes Based on Launch Date) using the following settings:
 Sort: Parent Category
 Value: Count of Outcomes
