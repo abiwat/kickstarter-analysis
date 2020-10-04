@@ -12,7 +12,7 @@ Sort: Parent Category
 Value: Count of Outcomes
 X axis - Outcome
 Y axis - Date Created Conversion
-I the sorted the selected data by Parent Category: theater.  I created a line graph using this pivot table ![Theater_Outcomes_vs_Launch](path/to/image_name.png)(Theater_Outcomes_vs_Launch.png).
+I the sorted the selected data by Parent Category: theater.  I created a line graph using this pivot table ![Theater_Outcomes_vs_Launch]https://github.com/abiwat/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png).
 
 I then created a sheet titled Outcomes Based on Goals.  Titled columns to hold data: Goal, Number Successful, Number Failed, Number Cancaled, Total Projects, Percentage Successful, Percentage Failed, Percentage Canceled.  In the Goal column, labeled rows as follows: Less than 1000, 1000 to 4999, 5000 to 9999, 10000 to 14999, 15000 to 19999, 20000 to 24999, 25000 to 29999, 30000 to 34999, 35000 to 39999, 40000 to 44999, 45000 to 49999, Greater than 50000.  Created equation for each value range using COUNTIFS() for successful, failed, canceled for the play subcategory.  In the Total Project column I used SUM(), adding the number of successful, failed, and canceled for each category.   I then calculated the percentage of successful, failed and canceled projects using the formula =(number of successful projects/total number of projects).  I then categorized the column as percentage in excel.  I created a line chart in another sheet using the percentage of successful, failed and canceled projects (Outcomes_vs_Goals.png).
 
