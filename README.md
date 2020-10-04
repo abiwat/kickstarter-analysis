@@ -30,7 +30,7 @@ I then created a sheet titled Outcomes Based on Goals.  Titled columns to hold d
 
 In the Goal column, labeled rows as follows:
 
-Less than 1000
+- Less than 1000
 - 1000 to 499
 - 5000 to 9999
 - 10000 to 14999
