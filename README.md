@@ -9,24 +9,24 @@ The client Louise fundraising campaign nearly completed the goal in a short pero
 ### Analysis and Challenges
 To begin the anaylsis, I began by extracting the year from the column "Date Created Conversion".  I then created a pivot table (Outcomes Based on Launch Date) using the following settings:
 
--Sort: Parent Category
--Value: Count of Outcomes
--X axis - Outcome
--Y axis - Date Created Conversion
+- Sort: Parent Category
+- Value: Count of Outcomes
+- X axis - Outcome
+- Y axis - Date Created Conversion
 
 I the sorted the selected data by Parent Category: theater.  I created a line graph using this pivot table.
 ![Theater_Outcomes_vs_Launch](https://github.com/abiwat/kickstarter-analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png)
 
 I then created a sheet titled Outcomes Based on Goals.  Titled columns to hold data: 
 
--Goal
--Number Successful
--Number Failed
--Number Cancaled
--Total Projects
--Percentage Successful
--Percentage Failed
--Percentage Canceled.  
+- Goal
+- Number Successful
+- Number Failed
+- Number Cancaled
+- Total Projects
+- Percentage Successful
+- Percentage Failed
+- Percentage Canceled.  
 
 In the Goal column, labeled rows as follows:
 
